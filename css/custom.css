@@ -96,13 +96,6 @@
   #page-header:not(.not-top-img):before {
     background-color: transparent !important;
   }
-
-  #home_top {
-    margin: 1rem auto 0;
-    padding: 0px 15px;
-    max-width: 1450px;
-    width: 100%;
-  }
   
   /* ��ҳ���¿�Ƭ */
   #recent-posts > .recent-post-item {
@@ -177,9 +170,9 @@
   }
   
   /* ͷͼ͸�� */
-  #page-header {
+  /* #page-header {
     background: transparent !important;
-  }
+  } */
   
   #rightside > div > button {
     border-radius: 5px;

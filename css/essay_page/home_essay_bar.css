@@ -109,6 +109,15 @@
     align-items: center;
     height: 50px;
     width: 100%;
+    max-width: 1370px;
+  }
+  @media screen and (max-width:1400px) {
+    #bbTimeList{
+      max-width:calc(100% - 40px);
+    }
+  }
+  @media screen and (max-width:768px) {
+    #bbTimeList{margin:.2rem auto 0;}
   }
   [data-theme="dark"] #bbTimeList {
     background: #000 !important;
@@ -131,14 +140,14 @@
     line-height: 22px;
     margin-right: 1rem;
     transition: all 0.3s ease 0s;
-    cursor: url(/img/x1.cur), auto !important;
+    cursor: url("https://npm.elemecdn.com/akilar-candyassets/image/cur/arrow.cur"), auto !important;
   }
   
   .bber-gotobb {
     line-height: 25px;
     margin-left: 1rem;
     transition: all 0.3s ease 0s;
-    cursor: url(/img/x1.cur), auto !important;
+    cursor: url("https://npm.elemecdn.com/akilar-candyassets/image/cur/arrow.cur"), auto !important;
   }
   
   #bber-talk .li-style {
@@ -151,7 +160,7 @@
     transition: 0.3s;
     font-weight: 700;
     margin: auto;
-    cursor: url(/img/x1.cur), auto !important;
+    cursor: url("https://npm.elemecdn.com/akilar-candyassets/image/cur/arrow.cur"), auto !important;
     white-space: nowrap;
   }
   
