@@ -263,7 +263,7 @@
     transform: translateY(58px) !important;
   }
   #nav {
-    padding: 0 calc((100% - 1420px) / 2);
+    padding: 0 calc((100% - 1370px) / 2);
     backdrop-filter: saturate(180%) blur(20px);
   }
   
